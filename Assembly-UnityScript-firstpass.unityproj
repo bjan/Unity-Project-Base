@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{7A11C25A-0FF4-D9D0-0F4F-596D41BF2870}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_2;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor3.5/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor3.5/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <Compile Include="Assets\Standard Assets\Particles\Legacy Particles\TimedObjectDestructor.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Animation Scripts\HeroAnimationScript.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Animation Scripts\MeleCube_WrapMode.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Animation Scripts\RangedCube_WrapMode.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\CameraPositionTester.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\MouseOrbit.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothFollow.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Enemy AI\Attack\Enemy Projectile Scripts\RangedCube_Projectiles.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Enemy AI\Attack\Engagement_Tactics.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Enemy AI\Death\MeleCube_Death.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Enemy AI\Death\RangedCube_Death.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Enemy AI\Death\Standard_Death.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Enemy AI\Navigation\Enemy_Navigation.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Enemy AI\Stats\BeastCube_Stats.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Enemy AI\Stats\EnemyName_Stats.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Enemy AI\Stats\MeleCube_Stats.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Enemy AI\Stats\MeleGatorBlue_Stats.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Enemy AI\Stats\RangedCube_Stats.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\GameElement Scripts\ArmorInfoList.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\GameElement Scripts\GameItemsList.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\GameElement Scripts\ItemRenameClone.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\GameElement Scripts\UseablesInfoList.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\GameElement Scripts\WeaponInfoList.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\GameElement Scripts\itemLookupNumbers.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\General Scripts\DragRigidbody.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\HeroChar Scripts\AdvancedFPSWalker.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\HeroChar Scripts\CharInventoryGUI.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\HeroChar Scripts\CharTopDownFaceMouse.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\HeroChar Scripts\Char_ActionBar.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\HeroChar Scripts\Char_InventoryGUI.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\HeroChar Scripts\Char_Stats.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\HeroChar Scripts\FPSWalker.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\HeroChar Scripts\GameController.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\HeroChar Scripts\Usables Handlers\Char_UseablesHandler.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\HeroChar Scripts\Weapon Handlers\Char_GunController.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\HeroChar Scripts\Weapon Handlers\Char_MeleController.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\HeroChar Scripts\Weapon Handlers\Char_WeaponHandler.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\HeroChar Scripts\Weapon Handlers\HandgunBulletScript.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Messaging Scripts\NotificationCenter.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Waypoint Scripts\WaypointMarker_Controller.js" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
