@@ -1,3 +1,0 @@
-<?pht
-
-echo "hello world!"
