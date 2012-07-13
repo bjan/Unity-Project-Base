@@ -1,4 +1,3 @@
-<?php
+<?pht
 
-
-?>
+echo "hello world!"
